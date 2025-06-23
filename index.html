@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
 
-    <!-- Boxicons Link -->
-     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- CSS file link -->
-     <link rel="stylesheet" href="style.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <!-- Header Design -->
-     <nav class="nav">
-        <ul class="nav-list">
-            <li class="active"><i class='bx bx-home-alt'></i><span class="toolkit">Home</span></li>
-            <li><i class='bx bx-user'></i><span class="toolkit">About</span></li>
-            <li><i class='bx bx-detail'></i><span class="toolkit">Resume</span></li>
-            <li><i class='bx bx-briefcase'></i><span class="toolkit">Portfolio</span></li>
-            <li><i class='bx bx-envelope'></i><span class="toolkit">Contact</span></li>
-        </ul>
-     </nav>
 
-     <div class="container">
+<body>
+
+    <!-- Header Design -->
+    <nav class="nav">
+        <ul class="nav-list">
+        <!--<i class='bx bx-menu' id="menu-icon"></i>-->
+            <a href="#home" class="active"><i class='bx bx-home-alt'></i><span class="toolkit">Home</span></a>
+            <a href="#about"><i class='bx bx-user'></i><span class="toolkit">About</span></a>
+            <a href="#resume"><i class='bx bx-detail'></i><span class="toolkit">Resume</span></a>
+            <a href="#portfolio"><i class='bx bx-briefcase'></i><span class="toolkit">Portfolio</span></a>
+            <a href="#contact"><i class='bx bx-envelope'></i><span class="toolkit">Contact</span></a>
+        </ul>
+    </nav>
+
+    <div class="container">
         <div class="box">
+
             <!-- Home Section -->
-             <section class="section home active">
+            <section class="section home active" id="home">
                 <div class="home-info">
                     <h3>Hey, It's Me</h3>
                     <h1>Lehlohonolo Joseph Motaba</h1>
                     <h3>Information Technology | Web & System Developer</h3>
-                    <p class="desc">Motivated and Tech-Savvy Information Technology graduate with National Diploma in IT from IBC College. 
-                    Passionate about software and web development, with hands-on experience in real-world projects and internships. 
-                    Eager to contribute technical skills and grow professional in a dynamic IT environment.</p>
+                    <p class="desc">Motivated and Tech-Savvy Information Technology graduate with National Diploma in IT from
+                        IBC College.
+                        Passionate about software and web development, with hands-on experience in real-world projects and
+                        internships.
+                        Eager to contribute technical skills and grow professional in a dynamic IT environment.</p>
                     <div class="btn-sci">
                         <a href="#" class="btn">Download CV</a>
                         <div class="sci">
@@ -45,11 +53,11 @@
                                 <i class='bx bxl-linkedin'></i>
                                 <span class="toolkit">Linkedin</span>
                             </a>
-                            <a href="#">
+                            <a href="https://www.facebook.com/motaba.lehlohonolo">
                                 <i class='bx bxl-facebook'></i>
                                 <span class="toolkit">Facebook</span>
                             </a>
-                            <a href="#">
+                            <a href="https://wa.me/message/XQDEZNEYCRT5O1">
                                 <i class='bx bxl-whatsapp'></i>
                                 <span class="toolkit">WhatsApp</span>
                             </a>
@@ -61,10 +69,10 @@
                         <img src="Images/18.jpeg" alt="">
                     </div>
                 </div>
-             </section>
+            </section>
 
-             <!-- About Section -->
-             <section class="section about">
+            <!-- About Section -->
+            <section class="section about" id="about">
                 <div class="img-wrapper">
                     <div class="img-box about-img">
                         <img src="Images/18.jpeg" alt="">
@@ -75,13 +83,13 @@
                     <h2 class="title">About Me</h2>
                     <h3>Information Technology | Web & Software Developer</h3>
                     <p class="desc">I am an aspiring IT professional skilled in Web Development, Software Design,
-                    and IT Support. Passionate about building Innovation For Tech & Solution (IT&S).</p>
+                        and IT Support. Passionate about building Innovation For Tech & Solution (IT&S).</p>
                     <a href="#" class="btn">View More</a>
                 </div>
-             </section>
+            </section>
 
-             <!-- Resume (experience, skills, eduction) section -->
-            <section class="section resume">
+            <!-- Resume (experience, skills, eduction) section -->
+            <section class="section resume" id="resume">
                 <h2 class="title">Resume</h2>
                 <div class="tab-box">
                     <div class="tab-list resume-list active">
@@ -101,9 +109,9 @@
                             <h4>Website Developer</h4>
                             <h4>Broom of Africa (pty) Ltd</h4>
                             <p>Designed and Develop the company website,
-                            Implemented responsive web pages using HTML, CSS, JavaScript,
-                            Collaborated with the team to refine UI/UX,
-                            and Conducted bug testing and performance.</p>
+                                Implemented responsive web pages using HTML, CSS, JavaScript,
+                                Collaborated with the team to refine UI/UX,
+                                and Conducted bug testing and performance.</p>
                         </div>
 
                         <div class="tab-item resume-item">
@@ -112,9 +120,9 @@
                             <h4>Students Attendance Management System</h4>
                             <p>Web-based System using HTML, CSS, PHP & MySQL.
                                 <br>
-                            </br>
+                                </br>
                                 In this System Attendance Records are kept safe and secure and the attendance,
-                                information of particular or all students of particular class can be accessed 
+                                information of particular or all students of particular class can be accessed
                                 easily and without time consuming.
                             </p>
                         </div>
@@ -174,29 +182,33 @@
                             <h4>2022 - 2025</h4>
                             <h4>National Diploma in Information Technology</h4>
                             <h4>IBC College</h4>
-                            <p>Motivated and Tech-Savvy Information Technology graduate with National Diploma in IT from IBC College. 
-                            Passionate about software and web development, with hands-on experience in real-world projects and internships.</p>
+                            <p>Motivated and Tech-Savvy Information Technology graduate with National Diploma in IT from IBC
+                                College.
+                                Passionate about software and web development, with hands-on experience in real-world projects
+                                and internships.</p>
                         </div>
 
                         <div class="tab-item resume-item">
                             <h4>2017 - 2021</h4>
                             <h4>Lesotho General Certificate of Secondary Education</h4>
                             <h4>Mahlabatheng High School</h4>
-                            <p>In 2017 to 2021, I arrived at Mahlabatheng High School. I did Grade 8 to Grade 11 and I got My Lesotho General Certificate of Secondary Education(LGCSE) Certificate.</p>
+                            <p>In 2017 to 2021, I arrived at Mahlabatheng High School. I did Grade 8 to Grade 11 and I got My
+                                Lesotho General Certificate of Secondary Education(LGCSE) Certificate.</p>
                         </div>
-                        
+
                         <div class="tab-item resume-item">
                             <h4>2009 - 2016</h4>
                             <h4>Primary School Leaving Certificate</h4>
                             <h4>Sekete RCC Primary School</h4>
-                            <p>From 2009 to 2016 I Attendanted at Sekete RCC Primary School, where I got My Primary School Leaving Certificate (PSLC).</p>
+                            <p>From 2009 to 2016 I Attendanted at Sekete RCC Primary School, where I got My Primary School
+                                Leaving Certificate (PSLC).</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Portfolio (work, services) section -->
-             <section class="section portfolio">
+            <section class="section portfolio" id="portfolio">
                 <h2 class="title">Portfolio</h2>
                 <div class="tab-box">
                     <div class="tab-list portfolio-list active">
@@ -232,7 +244,7 @@
                             <div class="work-info">
                                 <h4>Students Attendance Management System Project</h4>
                                 <p>I developed it to eliminate duplicated data entry when taking attendance records
-                                for students. Also, to increase security, automatic calculation of attendance.
+                                    for students. Also, to increase security, automatic calculation of attendance.
                                 </p>
                                 <div class="tech-used">
                                     <p>HTML, CSS, PHP & MySQL</p>
@@ -252,16 +264,16 @@
                                 <h4>Broom of Africa Website project</h4>
                                 <p>Responsive website for local business.
                                     <br>
-                                </br>
-                                Designed and Develop the company website,
-                                Collaborated with the team to refine UI/UX,
-                                and Conducted bug testing and performance.
+                                    </br>
+                                    Designed and Develop the company website,
+                                    Collaborated with the team to refine UI/UX,
+                                    and Conducted bug testing and performance.
                                 </p>
                                 <div class="tech-used">
                                     <p>HTML, CSS, JavaScript</p>
                                 </div>
                                 <div class="portfolio-icon work-icon">
-                                    <a href="https://hlony623.github.io/BroomOfAfrica/">
+                                    <a href="https://hlony623.github.io/BroomOgAfrica/">
                                         <i class='bx bx-arrow-back'></i>
                                         <span class="toolkit">Preview</span>
                                     </a>
@@ -288,8 +300,8 @@
                                 <a href="#"><i class='bx bx-arrow-back'></i></a>
                             </div>
                             <h4>Software Development</h4>
-                            <p>Designing, building, and maintaing software applications, 
-                            including web applications and mobile apps.</p>
+                            <p>Designing, building, and maintaing software applications,
+                                including web applications and mobile apps.</p>
                         </div>
                         <div class="tab-item portfolio-item">
                             <div class="portfolio-icon service-icon">
@@ -297,8 +309,8 @@
                                 <a href="#"><i class='bx bx-arrow-back'></i></a>
                             </div>
                             <h4>IT Support</h4>
-                            <p>Troubleshooting technical issues, providing user Support, 
-                            and ensuring the smooth operating of IT infrastructure.</p>
+                            <p>Troubleshooting technical issues, providing user Support,
+                                and ensuring the smooth operating of IT infrastructure.</p>
                         </div>
                         <div class="tab-item portfolio-item">
                             <div class="portfolio-icon service-icon">
@@ -342,14 +354,22 @@
                         </div>
                     </div>
                 </div>
-             </section>
+            </section>
 
-             <!-- Contact section -->
-             <section class="section contact active">
+            <!-- Contact section -->
+            <section class="section contact" id="contact">
                 <h2 class="title">Contact</h2>
                 <div class="contact-wrapper">
                     <form action="" class="contact-form">
                         <h3>Let's Work Together!</h3>
+                        
+                        <div class="my-map">
+                            <iframe src="https://www.google.com/maps?q=Ha+Makhalanyane&output=embed" 
+                            width="100%" height="200px"style="border: 0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                       
+                        
                         <div class="field-box">
                             <input type="text" placeholder="Full Name" required>
                             <input type="email" placeholder="Email Address" required>
@@ -363,12 +383,34 @@
                     </form>
                 </div>
                 <!--<p><span>EMAIL:</span> lehlohonolomotaba2@gmail.com</p>
-                <p><span>Phone:</span> 59403448 / 62383426</p>-->
-             </section>
-        </div>
-     </div>
+                        <p><span>Phone:</span> 59403448 / 62383426</p>-->
+            </section>
 
-     <!-- JavaScript file script -->
-      <script src="script.js"></script>
+    </div>
+    </div>
+
+    <!-- Footer Design -->
+     <!--<section>
+        <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 By Lehlohonolo Joseph Motaba | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+     </section>-->
+    
+
+    <!-- Scroll Reveal -->
+    <!--<script src='https://unpkg.com/scrollreveal'></script>-->
+
+    <!-- Typed JS -->
+    <!--<script src='https://cdn.jsdelivr.net/npm/typed.js@2.0.12'></script>-->
+
+
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
