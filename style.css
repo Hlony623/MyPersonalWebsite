@@ -45,7 +45,7 @@ html{
 
 body{
     color: var(--white-color);
-    overflow: visible;
+    overflow: hidden;
 }
 
 p{
@@ -187,10 +187,10 @@ a:hover .toolkit,
     align-items: center;
     gap: 5rem;
     background: var(--bg-color);
-    animation: animate-section 4s ease-in-out backwards;
+    /*animation: animate-section 4s ease-in-out backwards;*/
 }
 
-@keyframes animate-section{
+/*@keyframes animate-section{
     0%{
         transform: scale(0) rotateZ(-360deg);
     }
@@ -198,7 +198,7 @@ a:hover .toolkit,
     100%{
         transform: scale(1) rotateZ(0deg);
     }
-}
+}*/
 
 .home-info h1{
     font-size: 5.5rem;
