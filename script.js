@@ -1,4 +1,4 @@
-const navs = document.querySelectorAll('.nav-list li');
+const navs = document.querySelectorAll('.nav-list a');
 const cube = document.querySelector('.box');
 const sections = document.querySelectorAll('.section');
 
@@ -11,7 +11,7 @@ const portfolioBoxs = document.querySelectorAll('.portfolio-box');
 // navbar actions and all section actions along with cube rotation when navbar is clicked
 navs.forEach((nav, idx) => {
     nav.addEventListener('click', () => {
-        document.querySelector('.nav-list li.active').classList.remove('active');
+        document.querySelector('.nav-list a.active').classList.remove('active');
         nav.classList.add('active');
 
         cube.style.transform = 'rotateY(${idx * -90}deg)';
